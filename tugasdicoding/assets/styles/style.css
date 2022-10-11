@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+/*
+
+.left-content {
+  text-align: center;
+  width: 70%;
+  height: 100%;
+  background-color: #00c7ed;
+  border: 1px solid black;
+
+  float: left;
+}
+
+.right-content {
+
+  width: 30%;
+  height: 100%;
+  background-color: #00c7ed;
+  border: 1px solid black;
+
+  float: right;
+} */
+
+#content {
+  float: left;
+  width: 75%;
+
+
+}
+
+aside {
+  float: right;
+  width: 25%;
+  background-color: #FFF;
+  padding-left: 20px;
+
+}
+
+.jumbotron {
+  padding: 50px;
+  background-color: #EE6983;
+  font-size: 30px;
+  color: #FFF5E4;
+}
+
+header {
+  display: inline;
+  text-align: center;
+}
+
+nav {
+  background-color: #850E35;
+  padding: 10px 15px;
+
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #850E35;
+    text-align: center;
+    font-family: 'DM Sans';
+}
+
+body {
+  font-family: 'DM Sans';
+
+  /*background: url('https://previews.123rf.com/images/turr17/turr171511/turr17151100487/48282981-damask-seamless-ornament-traditional-vector-silver-pattern-classic-oriental-background.jpg'); */
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  border-color: #d6bebc;
+  border: 1px solid #d6bebc;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+} */
+
+.profile img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.profile {
+  text-align: center;
+  border: 1px solid #FFC4C4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+p {
+  margin-top: 18px;
+  text-decoration-color: #4f4747;
+  font-family: 'DM Sans';
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  color: #850E35;
+  font-family: 'Shadows Into Light';
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 80%;
+  object-fit: cover;
+  object-position: center;
+  margin: 20px 0;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  background-color: #FFF5E4;
+}
+
+h1 {
+  font-family: 'Shadows Into Light';
+}
+
+article {
+  text-indent: 40px;
+  border: 1px solid #FFC4C4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #FFF;
+
+}
+
+.welcome {
+  text-align: center;
+  font-family: 'DM Sans';
+}
+
+button {
+
+  background-color: #FFC4C4;
+  border: 0px;
+  padding: 20px 30px;
+  font-family: 'DM Sans';
+  font-size: 25px;
+
+}
